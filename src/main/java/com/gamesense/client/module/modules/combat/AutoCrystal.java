@@ -54,7 +54,7 @@ import java.util.stream.Collectors;
 
 public class AutoCrystal extends Module {
     public AutoCrystal() {
-        super("AutoCrystalGS", Category.Combat);
+        super("CrystalAura", Category.Combat);
     }
 
     Setting.Boolean breakCrystal;
