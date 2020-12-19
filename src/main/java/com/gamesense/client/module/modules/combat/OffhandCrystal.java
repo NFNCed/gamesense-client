@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class OffhandCrystal extends Module{
+public class Offhand Terrorism extends Module{
 	public int totems;
 	int crystals;
 	boolean moving;
@@ -26,7 +26,7 @@ public class OffhandCrystal extends Module{
 	Setting.Boolean disableGapple;
 
 	public OffhandCrystal(){
-		super("OffhandCrystal", Category.Combat);
+		super("Offhand Terrorism", Category.Combat);
 		this.moving = false;
 		this.returnI = false;
 	}
