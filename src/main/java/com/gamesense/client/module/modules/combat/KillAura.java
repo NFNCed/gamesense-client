@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 
 public class KillAura extends Module{
 	public KillAura(){
-		super("KillAura", Category.Combat);
+		super("Aggravated Assault", Category.Combat);
 	}
 
 	Setting.Boolean players;
