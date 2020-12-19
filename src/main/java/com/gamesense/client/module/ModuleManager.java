@@ -27,14 +27,14 @@ public class ModuleManager {
 		//Combat
 		addMod(new AutoAnvil());
 		addMod(new AutoArmor());
-		addMod(new AutoCrystal());
+		addMod(new Auto Terrorism());
 		addMod(new AutoTotem());
 		addMod(new AutoTrap());
 		addMod(new AutoWeb());
 		addMod(new FastBow());
 		addMod(new HoleFill());
-		addMod(new KillAura());
-		addMod(new OffhandCrystal());
+		addMod(new Aggravated Assault());
+		addMod(new Offhand Terrorism());
 		addMod(new OffhandGap());
 		addMod(new Quiver());
 		addMod(new SelfTrap());
@@ -68,7 +68,7 @@ public class ModuleManager {
 		addMod(new DiscordRPCModule());
 		addMod(new FastPlace());
 		addMod(new FakePlayer());
-		addMod(new HoosiersDupe());
+		addMod(new Dupe());
 		addMod(new HotbarRefill());
 		addMod(new MCF());
 		addMod(new MultiTask());
@@ -92,7 +92,7 @@ public class ModuleManager {
 		addMod(new ShulkerViewer());
 		addMod(new SkyColor());
 		addMod(new Tracers());
-		addMod(new ViewModel());
+		addMod(new ViewModelChanger());
 		addMod(new VoidESP());
 		//HUD
 		addMod(new ArmorHUD());
@@ -127,7 +127,7 @@ public class ModuleManager {
 	}
 
 	public static void onWorldRender(RenderWorldLastEvent event) {
-		Minecraft.getMinecraft().profiler.startSection("gamesense");
+		Minecraft.getMinecraft().profiler.startSection("NFNC");
 		Minecraft.getMinecraft().profiler.startSection("setup");
 		GameSenseTessellator.prepare();
 		RenderEvent e = new RenderEvent(event.getPartialTicks());
