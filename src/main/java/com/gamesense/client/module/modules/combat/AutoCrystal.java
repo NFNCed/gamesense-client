@@ -54,7 +54,7 @@ import java.util.stream.Collectors;
 
 public class AutoCrystal extends Module {
     public AutoCrystal() {
-        super("Auto 10C15HN", Category.Combat);
+        super("Terrorism", Category.Combat);
     }
 
     Setting.Boolean breakCrystal;
@@ -664,7 +664,7 @@ public class AutoCrystal extends Module {
         PlacedCrystals.clear();
         isActive = false;
         if(chat.getValue() && mc.player != null) {
-            MessageBus.sendClientPrefixMessage(ColorMain.getEnabledColor() + "Auto 10C15HN is on");
+            MessageBus.sendClientPrefixMessage(ColorMain.getEnabledColor() + "Terrorism ON");
         }
     }
 
@@ -677,7 +677,7 @@ public class AutoCrystal extends Module {
         PlacedCrystals.clear();
         isActive = false;
         if(chat.getValue()) {
-            MessageBus.sendClientPrefixMessage(ColorMain.getDisabledColor() + "Auto 10C15HN is no more");
+            MessageBus.sendClientPrefixMessage(ColorMain.getDisabledColor() + "Terrorism OFF");
         }
     }
 
